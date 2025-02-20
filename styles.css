@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+.order-service {
+  background-color: #2f303a;
+}
+.title {
+  color: #ffffff;
+}
+.button-1 {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.footer {
+  background-color: #2f303a;
+}
+footer p {
+  color: #ffffff;
+}
+ul {
+  list-style: none;
+}
