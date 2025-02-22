@@ -1,22 +1,27 @@
-a {
-  text-decoration: none;
+:root {
+  --text-color: #ffffff;
+  --background-color: #2f303a;
+  --button-color: #2196f3;
 }
 .order-service {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 .title {
-  color: #ffffff;
+  color: var(--text-color);
 }
 .button-1 {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--button-color);
+  color: var(--text-color);
 }
-.footer {
-  background-color: #2f303a;
+.footer{
+  background-color: var(--background-color);
 }
-footer p {
-  color: #ffffff;
+footer>ul>li> p{
+  color: var(--text-color);
 }
-ul {
+a{
+  text-decoration: none;
+}
+ul{
   list-style: none;
 }
